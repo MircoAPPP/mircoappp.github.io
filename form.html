@@ -15,6 +15,11 @@
     <h1>Consigli</h1>
     <form class="row g-3" action="https://formsubmit.co/17d6d673ccd26b3a4b63c09f57292964" method="POST"> 
         <div class="col-md-6">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none">
+            <!-- Disable Captcha-->
+            <input type="hidden" name="_captcha" value="false">
+
             <label for="name" class="form-label">Nome</label>
             <input type="text" class="form-control" name="name" id="name" required>
         </div>
