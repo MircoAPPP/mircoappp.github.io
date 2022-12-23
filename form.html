@@ -4,10 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Consigli</title>
     <link rel="shortcut icon" href="img/download.webp" type="image/x-icon">
 
@@ -22,38 +21,39 @@
 </script>
   </head>
   <body>
-<div class="container mt-5">
+<div class="form container mt-5">
     <h1>Consigli</h1>
     <form class="row g-3" action="https://formsubmit.co/17d6d673ccd26b3a4b63c09f57292964" method="POST"> 
-        <div class="col-md-6">
-            <!-- Honeypot -->
-            <input type="text" name="_honey" style="display: none">
-            <!-- Disable Captcha-->
-            <input type="hidden" name="_captcha" value="false">
+            <div class="col-md-6">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none">
+                <!-- Disable Captcha-->
+                <input type="hidden" name="_captcha" value="false">
 
-            <label for="name" class="form-label">Nome</label>
-            <input type="text" class="form-control" name="name" id="name" required>
-        </div>
-        <div class="col-md-6">
-            <label for="lastName" class="form-label">Cognome</label>
-            <input type="text" class="form-control" name="lastname" id="email" required>
-        </div>
-        <div class="col-md-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="text" class="form-control" name="email" id="email" placeholder="name@example.com" required>
-        </div>
-        <div class="col-md-8">
-            <label for="tel" class="form-label">Telefono</label>
-            <input type="tel" class="form-control" name="tel" id="tel" placeholder="+39">
-        </div>
-        <div class="col-md-15">
-            <label for="Consiglio" class="form-label">Consiglio</label>
-            <textarea class="form-control" id="Consiglio" name="consiglio" rows="3" required></textarea>
-        </div>
-        <div class="col-md-12">
-            <button type="submit" class="btn btn-primary">Invia</button>
-        </div>
-    </form>
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" name="name" id="name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Cognome</label>
+                <input type="text" class="form-control" name="lastname" id="email" required>
+            </div>
+            <div class="col-md-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+            </div>
+            <div class="col-md-8">
+                <label for="tel" class="form-label">Telefono</label>
+                <input type="tel" class="form-control" name="tel" id="tel" placeholder="+39">
+            </div>
+            <div class="col-md-15">
+                <label for="Consiglio" class="form-label">Consiglio</label>
+                <textarea class="form-control" id="Consiglio" name="consiglio" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Invia</button>
+            </div>
+        </form>
+    </div>
 </div>
     <!-- Optional JavaScript; choose one of the two! -->
 

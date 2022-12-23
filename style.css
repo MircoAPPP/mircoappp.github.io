@@ -1,3 +1,15 @@
 center {
     text-align: center;
 }
+
+body {
+    background-color: gray;
+}
+
+.card {
+    background-color: gray;
+}
+
+.form {
+    background-color: gray;
+}
